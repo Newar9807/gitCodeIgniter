@@ -27,14 +27,37 @@
             
             // var_dump($userData);
             $this->load->model('users');
-            if(!isset($_SESSION['userID'])){
-                $this->users->getRegUserData($userData);
-                $this->login();
-            }
-            else{
-                $this->users->getLoginUserData($userData);
-                $this->product();
-            }
+            $this->users->getRegUserData($userData);
+            $this->login();
+            // if(!isset($_SESSION['userID'])){
+            //     $this->users->getRegUserData($userData);
+            //     $this->login();
+            // }
+            // else{
+            //     $this->users->getLoginUserData($userData);
+            //     $this->product();
+            // }
+        }
+
+        public function userLoginData(){
+            $insertedName = $this->input->post('name');
+            $insertedPassword = $this->input->post('pass');
+            
+            // var_dump($userData);
+            $this->load->model('users');
+            $data['users'] = $this->users->getLoginUserData();
+
+            var_dump($data);
+            // $this->login();
+            
+            // if(!isset($_SESSION['userID'])){
+            //     $this->users->getRegUserData($userData);
+            //     $this->login();
+            // }
+            // else{
+            //     $this->users->getLoginUserData($userData);
+            //     $this->product();
+            // }
         }
 
         public function productData(){
