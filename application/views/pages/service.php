@@ -1,0 +1,3 @@
+<h1><?php echo $title;?></h1>
+<p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sed natus a, accusantium rerum eligendi aspernatur earum cumque rem asperiores facilis iure dolorem!</p>
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corporis natus ipsum praesentium! Vel deleniti ipsa accusantium repellat quos tempore omnis aperiam assumenda ipsam reprehenderit aspernatur voluptatum esse doloribus accusamus iste, soluta, iusto rem? Quas, impedit? Corporis iure ducimus autem voluptates odit modi eius? Rerum tempore eveniet in repellat et, deserunt quas fugiat voluptatum maxime suscipit quos iste sed temporibus dicta eaque nam omnis excepturi sint voluptate!</p>

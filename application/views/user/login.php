@@ -1,0 +1,1 @@
+<h2><?php echo anchor('user/view/product', 'ADD PRODUCT').'<br />'?></h2>
