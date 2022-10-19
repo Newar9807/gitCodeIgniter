@@ -13,7 +13,7 @@
 
 <h1 style="color: red;">Register</h1>
 <strong>
-    <form action="" method="POST">
+    <form action="user/userData" method="POST">
         <label for="">Name:</label>
         <input type="text" name="name" placeholder="Enter your Name"> <br>
         <label for="">Password:</label>
