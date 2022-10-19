@@ -1,6 +1,6 @@
 <h1 style="color: blue;">Login</h1>
 <strong>
-    <form action="" method="POST">
+    <form action="userData" method="POST">
         <label for="">Name:</label>
         <input type="text" name="name" placeholder="Enter your Name"> <br>
         <label for="">Password:</label>
